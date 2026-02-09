@@ -24,5 +24,4 @@ jobs:
 
       - name: Run Postman Collection
         run: |
-          newman run postman/postman_collection.json \
-          -e postman/postman_environment.json
+          newman run postman/postman_collection.json 
